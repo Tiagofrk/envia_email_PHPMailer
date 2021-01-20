@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreamento do Produto </title>
+</head>
+<body>
+
+    <h3>Acompanhe seu produto </h3>
+    <br>
+    <form action="teste_email.php" method="post">
+        <label for="nome">Digite seu nome</label>
+        <br><br>
+        <input type="text" id="nome" class="nome" name="nome">
+        <br><br>
+        <label for="codigo">Digite uma mensagem </label>
+        <br><br>
+        <textarea id="cod" name="cod" class="cod" type="text" rows="3" style="resize: none;"></textarea>
+        <br><br>
+        <label for="email">Digite aqui seu email para receber as informações</label>
+        <br><br>
+        <input id="email" name="email" class="email" type="email">
+        <br><br>
+        <a href="teste_email.php"><button type="submit" >Enviar</button></a>
+    </form>
+</body>
+</html>
